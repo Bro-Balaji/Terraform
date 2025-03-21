@@ -22,8 +22,3 @@
  terraform refresh – Sync state with real infrastructure
  terraform state mv <old> <new> – Move a resource
  terraform state rm <resource> – Remove a resource from state
-
- This is for testing
-
-
- hi 
