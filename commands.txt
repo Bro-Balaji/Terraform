@@ -1,0 +1,26 @@
+1️⃣ Setup & Initialization
+ terraform init – Initialize a working directory
+ terraform validate – Check for syntax errors
+ terraform fmt – Format the code for readability
+2️⃣ Planning & Deployment
+ terraform plan – Preview changes before applying
+  terraform apply – Deploy infrastructure
+  terraform apply -auto-approve – Apply changes without confirmation
+3️⃣ Resource Management
+ terraform state list – List all managed resources
+ terraform state show <resource> – View details of a resource
+ terraform import <resource> <id> – Import existing infra into Terraform
+4️⃣ Modifications & Cleanup
+ terraform taint <resource> – Mark a resource for recreation
+ terraform untaint <resource> – Remove taint from a resource
+ terraform destroy -auto-approve – Remove all managed resources
+5️⃣ Working with Variables & Outputs
+ terraform output – Display output values
+ terraform apply -var="key=value" – Pass a variable during execution
+ terraform apply -var-file="file.tfvars" – Use a variables file
+6️⃣ Managing Terraform State
+ terraform refresh – Sync state with real infrastructure
+ terraform state mv <old> <new> – Move a resource
+ terraform state rm <resource> – Remove a resource from state
+
+ This is for testing
