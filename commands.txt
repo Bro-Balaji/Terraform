@@ -24,3 +24,6 @@
  terraform state rm <resource> – Remove a resource from state
 
  This is for testing
+
+
+ hi 
